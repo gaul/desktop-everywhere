@@ -1,3 +1,5 @@
+![Mozilla Add-on](https://img.shields.io/amo/d/desktop-everywhere.svg)
+
 # Desktop Everywhere
 
 A WebExtension which redirects mobile links to desktop equivalents.  For
