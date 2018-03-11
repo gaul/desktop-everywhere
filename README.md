@@ -4,6 +4,9 @@
 
 A WebExtension which redirects mobile links to desktop equivalents.  For
 example, https://mobile.nytimes.com will redirect to https://nytimes.com/ .
+Desktop Everywhere uses a whitelist; please open GitHub issues or pull requests
+for additional redirects.
+
 Inspired by [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 
 ## Installation
