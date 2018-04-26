@@ -13,6 +13,11 @@ Inspired by [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 
 * [Firefox addon](https://addons.mozilla.org/en-US/firefox/addon/desktop-everywhere/)
 
+## References
+
+* [Redirector](https://addons.mozilla.org/en-US/firefox/addon/redirector/)
+  allows redirecting user-specified URLs
+
 ## License
 
 Copyright (C) 2018 Andrew Gaul
