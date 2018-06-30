@@ -21,6 +21,7 @@ let matches = {
     "m.sfgate.com": "sfgate.com",
     "m.xkcd.com": "xkcd.com",
     "en.m.wikipedia.org": "en.wikipedia.org",
+    "mobile.lemonde.fr": "lemonde.fr",
     "mobile.nytimes.com": "nytimes.com",
     "mobile.twitter.com": "twitter.com"
 };
