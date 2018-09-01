@@ -4,6 +4,9 @@
 
 A WebExtension which redirects mobile links to desktop equivalents.  For
 example, https://mobile.nytimes.com/ will redirect to https://nytimes.com/ .
+Firefox Android users should also tick the "Request desktop site" from the
+hamburger menu.
+
 Desktop Everywhere uses a whitelist; please open GitHub issues or pull requests
 for additional redirects.
 
