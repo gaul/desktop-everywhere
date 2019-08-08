@@ -7,6 +7,9 @@
   "background": {
     "scripts": ["desktop_everywhere.js"]
   },
+  "icons": {
+    "48": "desktop.svg"
+  },
   "permissions": [
     "webRequest",
     "webRequestBlocking",
