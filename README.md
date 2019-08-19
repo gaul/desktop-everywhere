@@ -1,6 +1,6 @@
 # Desktop Everywhere
 
-[![Mozilla Add-on](https://img.shields.io/amo/d/desktop-everywhere.svg)](https://addons.mozilla.org/en-US/firefox/addon/desktop-everywhere/statistics/)
+[![Mozilla Add-on](https://img.shields.io/amo/users/desktop-everywhere.svg)](https://addons.mozilla.org/en-US/firefox/addon/desktop-everywhere/statistics/)
 
 A WebExtension which redirects mobile links to desktop equivalents.  For
 example, https://mobile.nytimes.com/ will redirect to https://nytimes.com/ .
