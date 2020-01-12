@@ -23,6 +23,6 @@ Inspired by [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 
 ## License
 
-Copyright (C) 2018 Andrew Gaul
+Copyright (C) 2018-2020 Andrew Gaul
 
 Licensed under the Apache License, Version 2.0
