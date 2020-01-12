@@ -33,6 +33,13 @@ function listener(details) {
     if (newhostname !== undefined) {
         uri.hostname = newhostname
         return {redirectUrl: uri.href};
+    } else if (uri.hostname.endsWith(".blogspot.com")) {
+        for (const [key, value] of uri.searchParams) {
+            if (key === "m" && value === "1") {
+                uri.searchParams.delete(key);
+                return {redirectUrl: uri.href};
+            }
+        }
     }
     return {};
 }
