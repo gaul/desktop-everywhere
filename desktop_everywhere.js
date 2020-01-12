@@ -21,7 +21,6 @@ let matches = {
     "m.imdb.com": "imdb.com",
     "m.sfgate.com": "sfgate.com",
     "m.xkcd.com": "xkcd.com",
-    "en.m.wikipedia.org": "en.wikipedia.org",
     "mobile.lemonde.fr": "lemonde.fr",
     "mobile.nytimes.com": "nytimes.com",
     "mobile.twitter.com": "twitter.com"
@@ -40,6 +39,11 @@ function listener(details) {
                 return {redirectUrl: uri.href};
             }
         }
+    } else if (uri.hostname.endsWith(".m.wikipedia.org")) {
+        let parts = uri.hostname.split(".");
+        parts.splice(1, 1);
+        uri.hostname = parts.join(".");
+        return {redirectUrl: uri.href};
     }
     return {};
 }
