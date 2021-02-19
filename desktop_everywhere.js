@@ -18,6 +18,7 @@ let matches = {
     "m.bart.gov": "bart.gov",
     "m.clippercard.com": "clippercard.com",
     "m.facebook.com": "facebook.com",
+    "m.gsmarena.com": "gsmarena.com",
     "m.imdb.com": "imdb.com",
     "m.sfgate.com": "sfgate.com",
     "m.xkcd.com": "xkcd.com",
